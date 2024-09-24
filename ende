@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main(){
+
+int x[3];
+int *p;
+
+p=&x;//p receber o indereco da 1° posicao do vetor(x)
+
+x[0]=10;
+x[1]=20;
+x[2]=30;
+
+*p++;
+
+printf("*p= %d",*p);
+
+return 0;
+
+
+
+
+
+
+
+}
